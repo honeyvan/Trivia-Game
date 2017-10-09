@@ -13,14 +13,14 @@ header {
 	font-size: 50px;
 }
 
-.choice {
+button {
 	font-size: 25px;
 	line-height: 150%;
 	border: 1px solid #444;
-	margin: 10px auto;
+	margin: 5px auto;
 	width: 60%;
 }
 
-.choice:hover {
+button:hover {
 	background-color: lightblue;
 }
