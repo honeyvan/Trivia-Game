@@ -1,3 +1,9 @@
+body {
+	height: 100%;
+	background-image: url("../images/background.jpg");
+	font-family: 'Open Sans', sans-serif;
+}
+
 #container {
 	margin: 0 auto;
 	text-align: center;
@@ -6,11 +12,15 @@
 	margin-top: 50px;
 	padding: 15px;
 	box-sizing: border-box;
-	font-family: verdana;
+	height: 80%;
+	min-height: 450px;
+	background: rgba(225, 225, 225, 0.5)
 }
 
 header {
 	font-size: 50px;
+	font-family: 'Pacifico', cursive;
+	color: #70102e;
 }
 
 button {
@@ -19,6 +29,7 @@ button {
 	border: 1px solid #444;
 	margin: 5px auto;
 	width: 60%;
+	background-color: #d2b7ae;
 }
 
 button:hover {
