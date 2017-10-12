@@ -23,8 +23,16 @@ header {
 	color: #70102e;
 }
 
+p {
+	line-height: 150%;
+}
+
+#time, #question {
+	font-size: 18px;
+}
+
 button {
-	font-size: 25px;
+	font-size: 20px;
 	line-height: 150%;
 	border: 1px solid #444;
 	margin: 5px auto;
@@ -34,4 +42,8 @@ button {
 
 button:hover {
 	background-color: lightblue;
+}
+
+img {
+	width: 75%;
 }
